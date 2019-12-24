@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.header-color {
+  background: #2c3e50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-page {
+  background: #2c3e50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.projects-grid {
+  display: flex;
+}
+
+.resume-right-col {
+  background: #27221F;
+  color: white;
+}
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 4px dashed black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+.name h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: rgb(230, 230, 230);
+  padding-bottom: 30px;
+}
+
+.definition {
+  font-weight: bold;
+  width: 25%;
+  margin: auto;
+  padding: 50px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: rgb(230, 230, 230);
+}
+
+.banner {
+  width: 60%;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(20, 20, 20);
+  opacity: .8;
+}
+
+.banner h2 {
+  font-weight: bold;
+  color: white;
+}
+
+.banner p {
+  color: white;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.banner hr {
+  border-top: 5px dashed white;
+  width: 70%;
+  margin: auto;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.social-links i {
+  color: white;
+  font-size: 4em;
+  padding: 10px;
+}
