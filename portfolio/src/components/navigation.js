@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content, Footer } from 'react-mdl';
 import Main from './main';
+
 
 function Nav() {
     return (
         <div className="demo-big-content">
             <Layout>
-                <Header className='header-color' title="Brey's Portfolio" scroll>
+                <Header className='header-color's title="Brey's Portfolio" scroll>
                     <Navigation>
                         <Link to="/">Home</Link>
                         <Link to="/projects">Projects</Link>
@@ -15,7 +16,7 @@ function Nav() {
                         <Link to="/contact">Contact</Link>
                     </Navigation>
                 </Header>
-                <Drawer title="Title">
+                <Drawer title="Where to next?">
                     <Navigation>
                         <Link to="/">Home</Link>
                         <Link to="/projects">Projects</Link>
@@ -27,6 +28,12 @@ function Nav() {
                     <div className="page-content" />
                     <Main />
                 </Content>
+                <Footer className='footer-color'>
+                    <Navigation>
+                        <Link to='/'>Home</Link>
+                        <Link to='/projects'>Projects</Link>
+                    </Navigation>
+                </Footer>
             </Layout>
         </div>
     )

@@ -9,14 +9,6 @@ class LandingPage extends Component {
           <Cell col={12}>
             <div className="name">
               <h1>Aubrey "Brey" Batten</h1>
-              <img
-                src="profile-pic.jpg"
-                alt="avatar"
-                style={{ height: "200px" }}
-              />
-            </div>
-            <img src="" alt="" />
-            <div>
               <p className="definition">
                 PROGRAMMER: (n.) a person who solves problems you never knew you
                 had, in ways you don't understand
